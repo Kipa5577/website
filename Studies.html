@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title>Études</title>
 </head>
 <body>
     <header>
+        <img id="baniere" src="banner.jpg" alt="Bannière">
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Accueil</a></li>
                 <li><a href="Projects.html">Projets</a></li>
                 <li><a href="Studies.html">Études</a></li>
-                <li><a href="Work.html">Expérience Pro</a></li>
+                <li><a href="Work.html">Expérience Professionnelle</a></li>
             </ul>
         </nav>
     </header>
@@ -27,42 +27,42 @@
 
         <section id="formations">
             <h2>Formations</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-date">2019-2022</div>
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Bac Général</h3>
-                        <p>Lycée Jean Moulin, Albertville</p>
-                        <p>Options :</p>
-                        <ul>
-                            <li>Électronique spécialisée</li>
-                            <li>Informatique spécialisé embarqué</li>
-                            <li>Réalisation de systèmes embarqués</li>
-                        </ul>
+            <div class="timeline-container">
+                <div class="timeline">
+                    <div class="timeline-item right">
+                        <div class="timeline-date">2024-2027</div>
+                        <div class="timeline-content">
+                            <h3>IESE (Informatique et Électronique des Systèmes Embarqués)</h3>
+                            <p>Polytech Grenoble</p>
+                        </div>
                     </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">2022-2024</div>
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>G.E.I.I (Génie électrique et informatique industrielle)</h3>
-                        <p>I.U.T Annecy</p>
-                        <p>2ème année spécialisé en électronique et systèmes embarqués.</p>
-                        <p>Cours de spécialité :</p>
-                        <ul>
-                            <li>Électronique spécialisée</li>
-                            <li>Informatique spécialisé embarqué</li>
-                            <li>Réalisation de systèmes embarqués</li>
-                        </ul>
+                    <div class="timeline-item left">
+                        <div class="timeline-date">2022-2024</div>
+
+                        <div class="timeline-content">
+                            <h3>G.E.I.I (Génie Électrique et Informatique Industrielle)</h3>
+                            <p>I.U.T Annecy</p>
+                            <p>Spécialisation en 2ème année : électronique et systèmes embarqués</p>
+                            <p>Cours de spécialité :</p>
+                            <ul>
+                                <li>Électronique spécialisée</li>
+                                <li>Informatique spécialisée embarquée</li>
+                                <li>Réalisation de systèmes embarqués</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">2024-2027</div>
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>IESE (Informatique et électronique des système embarqué )</h3>
-                        <p>Polytech Grenoble</p>
+                    <div class="timeline-item right">
+                        <div class="timeline-date">2019-2022</div>
+                        <div class="timeline-content">
+                            <h3>Baccalauréat Général</h3>
+                            <p>Lycée Jean Moulin, Albertville</p>
+                            <p>Options :</p>
+                            <ul>
+                                <li>Électronique spécialisée</li>
+                                <li>Informatique spécialisée embarquée</li>
+                                <li>Réalisation de systèmes embarqués</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -70,42 +70,61 @@
 
         <section id="projets">
             <h2>Projets</h2>
-            <p>Les projets étaient réalisés en groupe. Les projets sont ordonnés du plus récent au moins récent.</p>
+            <p>Les projets ont été réalisés en groupe et sont présentés du plus récent au moins récent.</p>
             <div class="project">
-                <h3>Projet Robot de tableau Bluetooth (Amélioration Robot de tableau)</h3>
-                <p><strong>Description :</strong> L'intérêt de ce projet est de créer un système embarqué communiquant sans fil. Le projet consiste à adapter le robot de tableau pour communiquer en Bluetooth : l'Arduino Uno présent sur le robot de tableau a été remplacé par l'Arduino MKR1010.</p>
-                <p><strong>Logiciel utilisé :</strong> Visual Studio Code avec PlatformIO</p>
+                <h3>Robot de tableau Bluetooth (Amélioration du robot de tableau)</h3>
+                <p><strong>Description :</strong> Ce projet visait à créer un système embarqué communiquant sans fil. Il consistait à adapter un robot de tableau pour une communication Bluetooth en remplaçant l'Arduino Uno par un Arduino MKR1010.</p>
+                <p><strong>Logiciels utilisés :</strong> Visual Studio Code avec PlatformIO</p>
                 <p><strong>Résultat :</strong> Un objet communicant fonctionnel</p>
                 <p>Une application mobile a été développée pour contrôler le robot.</p>
             </div>
             <div class="project">
-                <h3>Projet Robot de tableau</h3>
-                <p><strong>Description :</strong> L'intérêt de ce projet est de créer un système embarqué. Le projet consiste à créer un robot capable de se déplacer sur un tableau blanc magnétique. Ce projet se divise en deux parties : une partie création du système embarqué et une partie test automatisé avec LabVIEW.</p>
-                <p><strong>Logiciel utilisé :</strong> Visual Studio Code avec PlatformIO, LabVIEW, Git (GitHub)</p>
+                <h3>Robot de tableau</h3>
+                <p><strong>Description :</strong> L'objectif était de concevoir un système embarqué capable de se déplacer sur un tableau blanc magnétique. Le projet comprenait deux volets : la création du système embarqué et des tests automatisés avec LabVIEW.</p>
+                <p><strong>Logiciels utilisés :</strong> Visual Studio Code avec PlatformIO, LabVIEW, Git (GitHub)</p>
                 <p><strong>Résultat :</strong> Un système embarqué fonctionnel</p>
             </div>
             <div class="project">
                 <h3>Logiciel de supervision de portique de remontée mécanique</h3>
-                <p><strong>Description :</strong> [Description à compléter]</p>
+                <p><strong>Description :</strong> Développement d'un logiciel de supervision pour monitorer et contrôler un portique de remontée mécanique, assurant une gestion efficace et sécurisée des opérations.</p>
                 <p><strong>Logiciels utilisés :</strong> C#</p>
+                <p><strong>Résultat :</strong> Un logiciel fonctionnel de supervision</p>
             </div>
             <div class="project">
                 <h3>Électrocardiogramme avec une pince</h3>
-                <p><strong>Description :</strong> [Description à compléter]</p>
+                <p><strong>Description :</strong> Conception d'un système d'électrocardiogramme utilisant une pince pour capter les signaux électriques du cœur, avec simulation et analyse des résultats.</p>
                 <p><strong>Logiciels utilisés :</strong> LTSpice</p>
+                <p><strong>Résultat :</strong> Un prototype simulé fonctionnel</p>
             </div>
             <div class="project">
-                <h3>Jeu video</h3>
-                <p><strong>Description :</strong> ce project a ete fait en groupe a 4. J'ai entierement codée sur linux on a aussi utilisé git pour ce coordoner a 4.</p>
+                <h3>Jeu vidéo</h3>
+                <p><strong>Description :</strong> Réalisé en groupe de quatre, ce projet consistait à développer un jeu vidéo entièrement codé sous Linux. La coordination a été assurée via Git pour gérer le travail collaboratif.</p>
                 <p><strong>Logiciels utilisés :</strong> Linux, Git</p>
+                <p><strong>Résultat :</strong> Un jeu vidéo fonctionnel</p>
             </div>
             <div class="project">
-                <h3>Électrocardiogramme avec des electrodes</h3>
-                <p><strong>Description :</strong> [Description à compléter]</p>
+                <h3>Électrocardiogramme avec des électrodes</h3>
+                <p><strong>Description :</strong> Conception d'un système d'électrocardiogramme utilisant des électrodes pour mesurer les signaux cardiaques, avec simulation et validation des résultats.</p>
                 <p><strong>Logiciels utilisés :</strong> LTSpice</p>
-                
+                <p><strong>Résultat :</strong> Un prototype simulé fonctionnel</p>
             </div>
         </section>
     </main>
+
+    <footer>
+        <p>© 2025 - Tous droits réservés</p>
+    </footer>
+
+    <script>
+        // Add interactivity: highlight timeline item on click
+        document.querySelectorAll('.timeline-item').forEach(item => {
+            item.addEventListener('click', () => {
+                item.querySelector('.timeline-content').style.background = '#e0f7fa';
+                setTimeout(() => {
+                    item.querySelector('.timeline-content').style.background = '#f9f9f9';
+                }, 1000);
+            });
+        });
+    </script>
 </body>
 </html>
