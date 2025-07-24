@@ -4,39 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style.css">
-    <title>Document</title>
+    <title>Projets Personnels - Patrick Kosa Ivasca</title>
 </head>
 <body>
-    <div><img src="Images/High-Volume-PCB-Assembly-BANNER-2.webp" id="baniere" ></div>
-    <div class="topnav">
-        <a href="index.html">Home</a>
-        <a href="Personal_Projects.html">Projets Perso</a>
-        <a href="Studies.html">Etudes</a>
-        <a href="Work.html">Experience pro</a>
-    </div>
-
-    <div id="COMPETENCES">
-    <h3>Déscription de la page</h3>
-    <p>Cette page détaille mes projets personells du plus récent au plus vieux</p>
-    
-    
-    <h2>Projet site internet</h2>
-    <p>L'interet de ce projet est de créer ce site internet</p>
-    <p>J'ai codé ce site à partir de rien</p>
-    <p>Connaisance aquise : Programmation en HTML/CSS/JAVASCRIPT , hebergement de site internet avec apache2</p>
-    <p>Logiciel utilisé: Visual Studio code et Linux </p>
-    <p>Résultat : Ce site internet</p>
-    <p>Materiel : rasberry pi </p>
-    </div>
-
-    <h2>Contrôlerur moteur Brushless</h2>
-    <p>Ce contrôleur moteur à est désitné au contrôle de moteur brushless de modelisme</p>
-    <h3>Schemat:</h3>
-    <a href="Documents/Contrôleru_de_moteur_brushless.pdf">PDF</a>
-    <h3>Composants:</h3>
-    <a href="Documents/A4964KJPTR-T.pdf">Asic contrôleur moteur:</a> 
-    <a href="Documents/Infineon_IRLB8721PBF_DataSheet_v01_01_EN-3363432.pdf">Transistor mosfet: </a> 
-
-
+    <header>
+        <figure>
+            <img src="Images/High-Volume-PCB-Assembly-BANNER-2.webp" alt="Bannière d'assemblage de circuits imprimés à haut volume" id="baniere">
+        </figure>
+        <nav class="topnav">
+            <a href="index.html">Home</a>
+            <a href="Personal_Projects.html">Projets Perso</a>
+            <a href="Studies.html">Études</a>
+            <a href="Work.html">Expérience Pro</a>
+        </nav>
+    </header>
+    <main>
+        <section id="introduction">
+            <h1>Projets Personnels</h1>
+            <p>Cette page détaille mes projets personnels, du plus récent au plus ancien. Chaque projet illustre mes compétences en développement web, électronique et programmation embarquée.</p>
+        </section>
+        <section id="projects">
+            <article class="project-card">
+                <h2>Projet Site Internet</h2>
+                <dl>
+                    <dt>Objectif</dt>
+                    <dd>Créer ce site internet pour présenter mes projets et compétences.</dd>
+                    <dt>Approche</dt>
+                    <dd>J'ai codé ce site à partir de rien, en utilisant HTML, CSS et JavaScript.</dd>
+                    <dt>Connaissances acquises</dt>
+                    <dd>Programmation en HTML/CSS/JavaScript, hébergement de site internet avec Apache2.</dd>
+                    <dt>Logiciels utilisés</dt>
+                    <dd>Visual Studio Code, Linux.</dd>
+                    <dt>Résultat</dt>
+                    <dd>Ce site internet fonctionnel.</dd>
+                    <dt>Matériel</dt>
+                    <dd>Raspberry Pi.</dd>
+                </dl>
+            </article>
+            <article class="project-card">
+                <h2>Contrôleur Moteur Brushless</h2>
+                <dl>
+                    <dt>Description</dt>
+                    <dd>Ce contrôleur est destiné au contrôle de moteurs brushless pour le modélisme.</dd>
+                    <dt>Schémas</dt>
+                    <dd><a href="Documents/Contrôleru_de_moteur_brushless.pdf" target="_blank">PDF du schéma</a></dd>
+                    <dt>Composants</dt>
+                    <dd>
+                        <ul>
+                            <li><a href="Documents/A4964KJPTR-T.pdf" target="_blank">ASIC contrôleur moteur</a></li>
+                            <li><a href="Documents/Infineon_IRLB8721PBF_DataSheet_v01_01_EN-3363432.pdf" target="_blank">Transistor MOSFET</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+            </article>
+        </section>
+    </main>
 </body>
 </html>

@@ -3,108 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta author="Patrick"> 
+    <meta author="Patrick">
     <link rel="stylesheet" href="Style.css">
-    <title>PatrickKosaIvasca</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Patrick Kosa Ivasca</title>
 </head>
 <body>
-    <div><img src="Images/High-Volume-PCB-Assembly-BANNER-2.webp" id="baniere" ></div>
-    <div class="topnav">
-        <a href="Home.html">Home</a>
-        <a href="Personal_Projects.html">Projets Perso</a>
-        <a href="Studies.html">Etudes</a>
-        <a href="Work.html">Experience pro</a>
-        
-    </div>
-
-
-
-    <p>
-        Bonjour, beinvenu sur mon site internet.
-        Sur ce site je detaille mes projets savoir faire et mon experience de travaille. La LA 
-    </p>
-
-    
-
-    <div id="COMPETENCES">
-        <h1>COMPETENCES</h1>
-        <h2>Electorinque</h2>
-
-        <h3>Connaissance Théorique</h3>
-    
-        <ul>
-            <li>Création de circuit</li>
-            <li>Simulation de circuits</li>
-            <li>Test/Validation de circuits</li>
-            <li>Création de circuit de circuit imprimé</li>
-        </ul>
-
-        <h3>Logiciels (maîtrise)</h3>
-        <ul>
-            <!--<img src="Images/120px-Kicad_logo_new.png">-->
-            <li><a href="https://www.kicad.org/" target="_blank">Kicad(Avancé)</a>: logiciel de schématique, simulation et routage de carte electronique</li>
-            <li>LTSpice(Avancé) : logiciel de simulation</li>
-            <!--<img src="Images/autodesk_fusion_360_logo-freelogovectors.net_-180x113.png" alt="">-->
-            <li>Autodesck Fusion360(Avancé) :  logiciel de modelisation 3D</li>
-            <li>Altium(Debutant): logiciel de schématique et routage de carte electronique </li>
-            <li>Psim(Intermédiaire) : logiciel de simulation </li>
-        </ul>
-
-        <h2>Programmation</h2>
-
-
-        <h3>Connaisance Théorique</h3>
-        <ul>
-            <li>Programmation en C/C++/C#/Python/VHDL/HTML/CCS/JavaScript</li>
-            <li>Programmation embarquée</li>
-            <li>Programmation sur stm32</li>
-            <li>Programmation embarquée sur Linux</li>
-
-        </ul>
-
-        <h3>Logiciels (maîtrise)</h3>
-        <ul>
-            <li>Visual Studio (Avancé) </li>
-            <li>Visual Studio Code (Avancé) </li>
-            <li>QUARTUS II (Intermédiaire) </li>
-            <li>STM32CUBEIDE (débutant) </li>
-
-        </ul>
-    
-
-        <h1>Langues</h1>
-        <ul>
-        <li> Roumain (natif)</li>
-        <li> Français(bilingue)</li>
-        <li> Englais (bilingue)</li>
-        <li> Allemend (debutant)</li>
-    </ul>
-
-    <h1>Centres d'interet / Loisir</h1>
-    <ul>
-        <li>Robotique/Conception de cartes électronique</li>
-        <li>La technologie</li>
-        <li>Le sport</li>
-    </ul>
-
-
-    <h1>Qualitées</h1>
-    <ul>
-        <li>Esprit d'équipe</li>
-        <li>Curieux</li>
-        <li>Dynamique</li>
-        <li>Autodidacte</li>
-    </ul>
-    </div>
-
-    <div id="InformationsBas">
-
-    <h1 id="InformationsBas">Informations</h2>
-    <p>Télephone :  07 86 68 00 23 </p>
-    <p>Mail : alexander.ivasca@yahoo.com</p>
-    <p>Permis B vehiculé</p>
-
-    </div>
-    
+    <header>
+        <img src="Images/High-Volume-PCB-Assembly-BANNER-2.webp" alt="Banner image of PCB assembly" id="baniere">
+        <nav class="topnav">
+            <a href="Home.html">Home</a>
+            <a href="Personal_Projects.html">Projets Perso</a>
+            <a href="Studies.html">Études</a>
+            <a href="Work.html">Expérience Pro</a>
+        </nav>
+    </header>
+    <main>
+        <section id="welcome">
+            <p>Bonjour, bienvenu sur mon site internet. Sur ce site, je détaille mes projets, mes savoir-faire et mon expérience de travail.</p>
+        </section>
+        <section id="competences">
+            <h1>Compétences</h1>
+            <h2>Électronique</h2>
+            <h3>Connaissance Théorique</h3>
+            <ul>
+                <li><i class="fas fa-microchip"></i> Création de circuits</li>
+                <li><i class="fas fa-microchip"></i> Simulation de circuits</li>
+                <li><i class="fas fa-microchip"></i> Test/Validation de circuits</li>
+                <li><i class="fas fa-microchip"></i> Création de circuits imprimés</li>
+            </ul>
+            <h3>Logiciels (Maîtrise)</h3>
+            <ul>
+                <li><i class="fas fa-drafting-compass"></i> <a href="https://www.kicad.org/" target="_blank">KiCad (Avancé)</a>: Logiciel de schématique, simulation et routage de carte électronique<div class="progress-bar" style="width: 80%;"></div></li>
+                <li><i class="fas fa-drafting-compass"></i> LTSpice (Avancé): Logiciel de simulation<div class="progress-bar" style="width: 80%;"></div></li>
+                <li><i class="fas fa-drafting-compass"></i> Autodesk Fusion 360 (Avancé): Logiciel de modélisation 3D<div class="progress-bar" style="width: 80%;"></div></li>
+                <li><i class="fas fa-drafting-compass"></i> Altium (Débutant): Logiciel de schématique et routage de carte électronique<div class="progress-bar" style="width: 40%;"></div></li>
+                <li><i class="fas fa-drafting-compass"></i> Psim (Intermédiaire): Logiciel de simulation<div class="progress-bar" style="width: 60%;"></div></li>
+            </ul>
+            <h2>Programmation</h2>
+            <h3>Connaissance Théorique</h3>
+            <ul>
+                <li><i class="fas fa-code"></i> Programmation en C/C++/C#/Python/VHDL/HTML/CSS/JavaScript</li>
+                <li><i class="fas fa-code"></i> Programmation embarquée</li>
+                <li><i class="fas fa-code"></i> Programmation sur STM32</li>
+                <li><i class="fas fa-code"></i> Programmation embarquée sur Linux</li>
+            </ul>
+            <h3>Logiciels (Maîtrise)</h3>
+            <ul>
+                <li><i class="fas fa-laptop-code"></i> Visual Studio (Avancé)<div class="progress-bar" style="width: 80%;"></div></li>
+                <li><i class="fas fa-laptop-code"></i> Visual Studio Code (Avancé)<div class="progress-bar" style="width: 80%;"></div></li>
+                <li><i class="fas fa-laptop-code"></i> QUARTUS II (Intermédiaire)<div class="progress-bar" style="width: 60%;"></div></li>
+                <li><i class="fas fa-laptop-code"></i> STM32CubeIDE (Débutant)<div class="progress-bar" style="width: 40%;"></div></li>
+            </ul>
+        </section>
+        <section id="langues">
+            <h1>Langues</h1>
+            <ul>
+                <li><i class="fas fa-globe"></i> Roumain (natif)</li>
+                <li><i class="fas fa-globe"></i> Français (bilingue)</li>
+                <li><i class="fas fa-globe"></i> Anglais (bilingue)</li>
+                <li><i class="fas fa-globe"></i> Allemand (débutant)</li>
+            </ul>
+        </section>
+        <section id="interets">
+            <h1>Centres d'Intérêt / Loisirs</h1>
+            <ul>
+                <li><i class="fas fa-robot"></i> Robotique/Conception de cartes électroniques</li>
+                <li><i class="fas fa-laptop"></i> La technologie</li>
+                <li><i class="fas fa-futbol"></i> Le sport</li>
+            </ul>
+        </section>
+        <section id="qualites">
+            <h1>Qualités</h1>
+            <ul>
+                <li><i class="fas fa-users"></i> Esprit d'équipe</li>
+                <li><i class="fas fa-lightbulb"></i> Curieux</li>
+                <li><i class="fas fa-bolt"></i> Dynamique</li>
+                <li><i class="fas fa-book-reader"></i> Autodidacte</li>
+            </ul>
+        </section>
+    </main>
+    <footer id="informations">
+        <h2>Informations</h2>
+        <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <p><a href="tel:0786680023">07 86 68 00 23</a></p>
+        </div>
+        <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <p><a href="mailto:alexander.ivasca@yahoo.com">alexander.ivasca@yahoo.com</a></p>
+        </div>
+        <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <p><a href="https://www.google.com/maps/place/20+Rue+Felix+Chautemps,+73200+Albertville,+France" target="_blank">20 Rue Felix Chautemps, Albertville</a></p>
+        </div>
+        <p>Permis B véhiculé</p>
+        <p>Ce site est hébergé par moi sur une Raspberry Pi 5</p>
+    </footer>
 </body>
 </html>
